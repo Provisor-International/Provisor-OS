@@ -8,3 +8,6 @@ Motorola/compatible 68000+ CPUs and hybrid Solutions<br>
 Solutions for Networking, Graphics Cards, Sound Cards, PCI Bus, USB Bus ++<br>
 POOL: Contains the original archives and more archives for installation by the user<br>
 UMA: Universal Machine Advancements is the hybrid solution software directory and assign<br>
+
+
+News/Updates: https://www.provisor.international/home/
