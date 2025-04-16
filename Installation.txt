@@ -1,0 +1,16 @@
+Installation of Provisor/OS:
+****************************
+
+Provisor/OS comes as 2_Drives hdf-image including a boot-able Provisor/OS and POOL:Boot.rom on SmartFilesystem.
+Stored at DDrive<version>:Provisor-OS_<version>.tar you find the standard filesystem as tar-archive.
+The tar-archive is intended as Installation-archive for bringing Provisor/OS to a new media/drive.
+
+Installation steps:
+*******************
+
+Configure/Setup with a Amiga/Compatible System or Emulator the new drive(s) with SYS:System/HdToolBox, boot-able comes at the end of the install-process.
+Set the drive(s) for the use of SmartFilesystem by adding SFS as Filesystem and change the drive(s) to SFS - mostly adding and then change to CFS0.
+Mostly after a reboot the new drive(s) are visible as unformated on the Desktop, now format the drive(s) like every time, or in the shell with sfsformat.
+Open (V)Shell and switch to the new drive which will contain the OS in future and do "tar xvfp <Drive>:Provisor-OS_<version>.tar".
+This creates at the drive the OS-Structure and data. By finished tar command, Provisor/OS is ready after setting the new Provisor/OS-Drive boot-able.
+Set it boot-able by use HdToolBox again and boot from the new drive. Hint: By change another settings in HdToolBox at the end this can destroy the installation.
